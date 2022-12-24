@@ -5,7 +5,7 @@ void convertBinary(int number)
     if (number > 0)
     {
         convertBinary(number / 2);
-        printf("%d", number - (number / 2 * 2));
+        printf("%d", number%2);
     }
 }
 
