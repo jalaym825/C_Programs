@@ -1,22 +1,19 @@
-#include <stdio.h>
+//This Program is Prepared by 22CE016 SATYAM CHAROLA
+#include<stdio.h>
+void bin(int n)
+{
+    if(n>0)
+    {
+        bin(n/2);
+        printf("%d",n%2);
+    }
+    else
+        return;
+}
 int main()
 {
-    int number, i, binary[50];
-
-    printf("enter a +ve integer number: ");
-    scanf("%d", &number);
-
-    for (i = 0; number > 0; i++)
-    {
-        if (number == number / 2 * 2)
-            binary[i] = 0;
-        else
-            binary[i] = 1;
-        number /= 2;
-    }
-
-    for (i = i - 1; i >= 0; i--)
-        printf("%d", binary[i]);
-
-    return 0;
+    int number;
+    printf("enter a number");
+    scanf("%d",&number);
+    bin(number);
 }
