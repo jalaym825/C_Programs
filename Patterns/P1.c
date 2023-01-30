@@ -1,7 +1,3 @@
-/*
-This program is made by Jalay (CE@CSPIT), Vatsal(IT@DDU).
-*/
-
 #include <stdio.h>
 
 int ncx(int, int);
@@ -35,9 +31,6 @@ int main()
         }
         printf("\n");
     }
-
-    printf("\nThis program is made by Jalay (CE@CSPIT), Vatsal(IT@DDU).");
-
     return 0;
 }
 

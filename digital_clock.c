@@ -102,6 +102,7 @@ int main()
 
         Sleep(1000);
     }
+    getch();
 
     return 0;
 }
